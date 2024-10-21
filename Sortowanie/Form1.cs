@@ -118,6 +118,19 @@ namespace Sortowanie
                 k++;
             }
         }
+
+        static int[] countingSort(int[] arr)
+        {
+            int max = 0;
+            for(int i=0;i<arr.Length;i++)
+            {
+                if (arr[i] > max)
+                    max = arr[i];
+            }
+            
+            
+            return arr;
+        }
         private void Button1_Click(object sender, EventArgs e)
         {
             int[] arr=bubbleSort(new int[] { 3, 3, 2, 4, 9, 6 });
