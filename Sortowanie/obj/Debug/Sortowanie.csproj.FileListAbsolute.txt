@@ -1,0 +1,10 @@
+G:\CSharp\Sortowanie\bin\Debug\Sortowanie.exe.config
+G:\CSharp\Sortowanie\bin\Debug\Sortowanie.exe
+G:\CSharp\Sortowanie\bin\Debug\Sortowanie.pdb
+G:\CSharp\Sortowanie\obj\Debug\Sortowanie.csproj.AssemblyReference.cache
+G:\CSharp\Sortowanie\obj\Debug\Sortowanie.Form1.resources
+G:\CSharp\Sortowanie\obj\Debug\Sortowanie.Properties.Resources.resources
+G:\CSharp\Sortowanie\obj\Debug\Sortowanie.csproj.GenerateResource.cache
+G:\CSharp\Sortowanie\obj\Debug\Sortowanie.csproj.CoreCompileInputs.cache
+G:\CSharp\Sortowanie\obj\Debug\Sortowanie.exe
+G:\CSharp\Sortowanie\obj\Debug\Sortowanie.pdb
