@@ -17,3 +17,14 @@ C:\Users\Mykel\source\repos\malianarbuz\AiSD\ListyKierunkowe\obj\Debug\ListyKier
 C:\Users\Mykel\source\repos\malianarbuz\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.csproj.CoreCompileInputs.cache
 C:\Users\Mykel\source\repos\malianarbuz\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.exe
 C:\Users\Mykel\source\repos\malianarbuz\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.pdb
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\bin\Debug\ListyKierunkowe.exe.config
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\bin\Debug\ListyKierunkowe.exe
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\bin\Debug\ListyKierunkowe.pdb
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.csproj.AssemblyReference.cache
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.csproj.SuggestedBindingRedirects.cache
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.Form1.resources
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.Properties.Resources.resources
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.csproj.GenerateResource.cache
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.csproj.CoreCompileInputs.cache
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.exe
+C:\Users\local\Desktop\AiSD-main\AiSD-main\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.pdb

@@ -55,6 +55,7 @@ namespace ListyKierunkowe
             if (count > 1)
             {
                 head = head.next;
+                head.prev.next = null;
                 head.prev = null;
                 count--;
             }
@@ -71,6 +72,7 @@ namespace ListyKierunkowe
             if(count>1)
             {
                 tail = tail.prev;
+                tail.next.prev = null;
                 tail.next = null;
                 count--;
             }
