@@ -19,3 +19,13 @@ C:\Users\local\Documents\174670\Sortowanie\obj\Debug\Sortowanie.csproj.GenerateR
 C:\Users\local\Documents\174670\Sortowanie\obj\Debug\Sortowanie.csproj.CoreCompileInputs.cache
 C:\Users\local\Documents\174670\Sortowanie\obj\Debug\Sortowanie.exe
 C:\Users\local\Documents\174670\Sortowanie\obj\Debug\Sortowanie.pdb
+C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\bin\Debug\Sortowanie.exe.config
+C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\bin\Debug\Sortowanie.exe
+C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\bin\Debug\Sortowanie.pdb
+C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.csproj.AssemblyReference.cache
+C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.Form1.resources
+C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.Properties.Resources.resources
+C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.csproj.GenerateResource.cache
+C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.csproj.CoreCompileInputs.cache
+C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.exe
+C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.pdb
