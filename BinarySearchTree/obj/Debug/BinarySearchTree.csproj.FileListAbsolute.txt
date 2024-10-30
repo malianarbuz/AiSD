@@ -1,0 +1,10 @@
+G:\GitHub\AiSD\BinarySearchTree\bin\Debug\BinarySearchTree.exe.config
+G:\GitHub\AiSD\BinarySearchTree\bin\Debug\BinarySearchTree.exe
+G:\GitHub\AiSD\BinarySearchTree\bin\Debug\BinarySearchTree.pdb
+G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.csproj.AssemblyReference.cache
+G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.Properties.Resources.resources
+G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.csproj.GenerateResource.cache
+G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.csproj.CoreCompileInputs.cache
+G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.exe
+G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.pdb
+G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.Form1.resources

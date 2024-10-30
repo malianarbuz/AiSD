@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\GitHub\\AiSD\\BinarySearchTree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{968C27EC-45D0-4F7F-B6A6-722781015506}|BinarySearchTree.csproj|G:\\GitHub\\AiSD\\BinarySearchTree\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{968C27EC-45D0-4F7F-B6A6-722781015506}|BinarySearchTree.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968C27EC-45D0-4F7F-B6A6-722781015506}|BinarySearchTree.csproj|G:\\GitHub\\AiSD\\BinarySearchTree\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968C27EC-45D0-4F7F-B6A6-722781015506}|BinarySearchTree.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968C27EC-45D0-4F7F-B6A6-722781015506}|BinarySearchTree.csproj|G:\\GitHub\\AiSD\\BinarySearchTree\\nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968C27EC-45D0-4F7F-B6A6-722781015506}|BinarySearchTree.csproj|solutionrelative:nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968C27EC-45D0-4F7F-B6A6-722781015506}|BinarySearchTree.csproj|g:\\github\\aisd\\binarysearchtree\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968C27EC-45D0-4F7F-B6A6-722781015506}|BinarySearchTree.csproj|solutionrelative:binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Projekt]",
+              "DocumentMoniker": "G:\\GitHub\\AiSD\\BinarySearchTree\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "G:\\GitHub\\AiSD\\BinarySearchTree\\Form1.cs [Projekt]",
+              "RelativeToolTip": "Form1.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:16:28.181Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "G:\\GitHub\\AiSD\\BinarySearchTree\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "G:\\GitHub\\AiSD\\BinarySearchTree\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:17:33.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BinarySearchTree.cs",
+              "DocumentMoniker": "G:\\GitHub\\AiSD\\BinarySearchTree\\BinarySearchTree.cs",
+              "RelativeDocumentMoniker": "BinarySearchTree.cs",
+              "ToolTip": "G:\\GitHub\\AiSD\\BinarySearchTree\\BinarySearchTree.cs",
+              "RelativeToolTip": "BinarySearchTree.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:17:28.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NodeT.cs",
+              "DocumentMoniker": "G:\\GitHub\\AiSD\\BinarySearchTree\\NodeT.cs",
+              "RelativeDocumentMoniker": "NodeT.cs",
+              "ToolTip": "G:\\GitHub\\AiSD\\BinarySearchTree\\NodeT.cs",
+              "RelativeToolTip": "NodeT.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:17:27.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
