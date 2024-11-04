@@ -28,17 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.treeView = new System.Windows.Forms.TreeView();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.AddElement = new System.Windows.Forms.Button();
             this.InputNumber = new System.Windows.Forms.MaskedTextBox();
+            this.RemoveElement = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // treeView
+            // treeView1
             // 
-            this.treeView.Location = new System.Drawing.Point(480, 113);
-            this.treeView.Name = "treeView";
-            this.treeView.Size = new System.Drawing.Size(144, 123);
-            this.treeView.TabIndex = 0;
+            this.treeView1.Location = new System.Drawing.Point(337, 12);
+            this.treeView1.Name = "treeView1";
+            this.treeView1.Size = new System.Drawing.Size(451, 426);
+            this.treeView1.TabIndex = 0;
             // 
             // AddElement
             // 
@@ -58,14 +59,25 @@
             this.InputNumber.Size = new System.Drawing.Size(100, 20);
             this.InputNumber.TabIndex = 2;
             // 
+            // RemoveElement
+            // 
+            this.RemoveElement.Location = new System.Drawing.Point(88, 261);
+            this.RemoveElement.Name = "RemoveElement";
+            this.RemoveElement.Size = new System.Drawing.Size(100, 44);
+            this.RemoveElement.TabIndex = 3;
+            this.RemoveElement.Text = "Usuń Element";
+            this.RemoveElement.UseVisualStyleBackColor = true;
+            this.RemoveElement.Click += new System.EventHandler(this.RemoveElement_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.RemoveElement);
             this.Controls.Add(this.InputNumber);
             this.Controls.Add(this.AddElement);
-            this.Controls.Add(this.treeView);
+            this.Controls.Add(this.treeView1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -75,9 +87,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TreeView treeView;
+        private System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.Button AddElement;
         private System.Windows.Forms.MaskedTextBox InputNumber;
+        private System.Windows.Forms.Button RemoveElement;
     }
 }
 
