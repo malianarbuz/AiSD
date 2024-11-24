@@ -1,0 +1,9 @@
+G:\CSharp\Grafy\bin\Debug\Grafy.exe.config
+G:\CSharp\Grafy\bin\Debug\Grafy.exe
+G:\CSharp\Grafy\bin\Debug\Grafy.pdb
+G:\CSharp\Grafy\obj\Debug\Grafy.csproj.AssemblyReference.cache
+G:\CSharp\Grafy\obj\Debug\Grafy.Properties.Resources.resources
+G:\CSharp\Grafy\obj\Debug\Grafy.csproj.GenerateResource.cache
+G:\CSharp\Grafy\obj\Debug\Grafy.csproj.CoreCompileInputs.cache
+G:\CSharp\Grafy\obj\Debug\Grafy.exe
+G:\CSharp\Grafy\obj\Debug\Grafy.pdb
