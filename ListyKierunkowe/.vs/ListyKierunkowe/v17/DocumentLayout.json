@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{9D62B7D0-039F-4B67-9910-CBC7249814B6}|ListyKierunkowe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D62B7D0-039F-4B67-9910-CBC7249814B6}|ListyKierunkowe.csproj|g:\\github\\aisd\\listykierunkowe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9D62B7D0-039F-4B67-9910-CBC7249814B6}|ListyKierunkowe.csproj|G:\\GitHub\\AiSD\\ListyKierunkowe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9D62B7D0-039F-4B67-9910-CBC7249814B6}|ListyKierunkowe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,8 +42,7 @@
               "ToolTip": "G:\\GitHub\\AiSD\\ListyKierunkowe\\Form1.cs [Projekt]",
               "RelativeToolTip": "Form1.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T23:06:24.279Z",
-              "EditorCaption": " [Projekt]"
+              "WhenOpened": "2024-11-03T23:06:24.279Z"
             }
           ]
         }
