@@ -15,10 +15,14 @@ namespace Grafy
         {
             this.data = data;
         }
-
+        
+        public override string ToString()
+        {
+            return this.data.ToString(); 
+        }
         public void AddConnection(NodeG node)
         {
-            if(this.neighbors.Contains(node))
+            if (this.neighbors.Contains(node))
                 return;
             this.neighbors.Add(node);
             node.neighbors.Add(this);
