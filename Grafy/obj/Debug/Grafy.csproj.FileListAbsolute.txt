@@ -1,0 +1,10 @@
+C:\Users\Mykel\source\repos\Grafy\bin\Debug\Grafy.exe.config
+C:\Users\Mykel\source\repos\Grafy\bin\Debug\Grafy.exe
+C:\Users\Mykel\source\repos\Grafy\bin\Debug\Grafy.pdb
+C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.csproj.AssemblyReference.cache
+C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.Properties.Resources.resources
+C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.csproj.GenerateResource.cache
+C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.csproj.CoreCompileInputs.cache
+C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.exe
+C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.pdb
+C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.Form1.resources
