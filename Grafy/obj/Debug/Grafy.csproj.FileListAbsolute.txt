@@ -8,3 +8,13 @@ C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.csproj.CoreCompileInputs.cache
 C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.exe
 C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.pdb
 C:\Users\Mykel\source\repos\Grafy\obj\Debug\Grafy.Form1.resources
+G:\AiSD\Grafy\bin\Debug\Grafy.exe.config
+G:\AiSD\Grafy\bin\Debug\Grafy.exe
+G:\AiSD\Grafy\bin\Debug\Grafy.pdb
+G:\AiSD\Grafy\obj\Debug\Grafy.csproj.AssemblyReference.cache
+G:\AiSD\Grafy\obj\Debug\Grafy.Form1.resources
+G:\AiSD\Grafy\obj\Debug\Grafy.Properties.Resources.resources
+G:\AiSD\Grafy\obj\Debug\Grafy.csproj.GenerateResource.cache
+G:\AiSD\Grafy\obj\Debug\Grafy.csproj.CoreCompileInputs.cache
+G:\AiSD\Grafy\obj\Debug\Grafy.exe
+G:\AiSD\Grafy\obj\Debug\Grafy.pdb

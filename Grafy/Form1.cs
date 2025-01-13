@@ -53,5 +53,10 @@ namespace Grafy
             }
             label1.Text = rozpT;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -48,6 +48,18 @@ namespace Grafy
             }
             return rozp;
         }
-            
+        public List<Edge> Dikstry(NodeG1 start)
+        {
+            List<Edge> result= new List<Edge>();
+            foreach (NodeG1 node in this.nodes)
+            {
+                Edge e = new Edge(start, node, 2147483647);
+                if (node == start)
+                    e.weight = 0;
+            }
+
+            return result;
         }
+            
+    }
 }

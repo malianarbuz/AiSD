@@ -35,3 +35,10 @@ G:\GitHub\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.csproj.GenerateResource
 G:\GitHub\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.csproj.CoreCompileInputs.cache
 G:\GitHub\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.exe
 G:\GitHub\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.pdb
+G:\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.csproj.AssemblyReference.cache
+G:\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.Form1.resources
+G:\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.Properties.Resources.resources
+G:\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.csproj.GenerateResource.cache
+G:\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.csproj.CoreCompileInputs.cache
+G:\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.exe
+G:\AiSD\ListyKierunkowe\obj\Debug\ListyKierunkowe.pdb

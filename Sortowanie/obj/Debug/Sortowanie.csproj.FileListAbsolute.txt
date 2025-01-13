@@ -29,3 +29,13 @@ C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.csp
 C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.csproj.CoreCompileInputs.cache
 C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.exe
 C:\Users\Mykel\source\repos\malianarbuz\AiSD\Sortowanie\obj\Debug\Sortowanie.pdb
+G:\AiSD\Sortowanie\bin\Debug\Sortowanie.exe.config
+G:\AiSD\Sortowanie\bin\Debug\Sortowanie.exe
+G:\AiSD\Sortowanie\bin\Debug\Sortowanie.pdb
+G:\AiSD\Sortowanie\obj\Debug\Sortowanie.csproj.AssemblyReference.cache
+G:\AiSD\Sortowanie\obj\Debug\Sortowanie.Form1.resources
+G:\AiSD\Sortowanie\obj\Debug\Sortowanie.Properties.Resources.resources
+G:\AiSD\Sortowanie\obj\Debug\Sortowanie.csproj.GenerateResource.cache
+G:\AiSD\Sortowanie\obj\Debug\Sortowanie.csproj.CoreCompileInputs.cache
+G:\AiSD\Sortowanie\obj\Debug\Sortowanie.exe
+G:\AiSD\Sortowanie\obj\Debug\Sortowanie.pdb

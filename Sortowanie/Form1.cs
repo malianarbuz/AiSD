@@ -12,18 +12,34 @@ namespace Sortowanie
 {
     public partial class Form1 : Form
     {
+         List<int> list = new List<int>();
         public Form1()
         {
             InitializeComponent();
+            
         }
-        static void printArray(int[] array)
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        public static String arrayToString(int[] array)
         {
             String a = "[";
             for (int i = 0; i < array.Length; i++)
             {
-                 a=a + array[i] + " , ";
-            };
-            MessageBox.Show(a+"]");
+                if (i < array.Length - 1)
+                    a = a + array[i] + " , ";
+                else
+                    a += array[i];
+            }
+            a += "]";
+            return a;
+        }
+
+
+        public static void addNumber(NumericUpDown inputNumber)
+        {
+            inputNumber.Value=0;
         }
         static int[] bubbleSort(int[] array)
         {
@@ -127,27 +143,116 @@ namespace Sortowanie
                 if (arr[i] > max)
                     max = arr[i];
             }
-            
-            
-            return arr;
+            int[] countArray = new int[max+1];
+
+            for(int i=0;i<arr.Length;i++)
+            {
+                countArray[arr[i]]++;
+            }
+            for (int i = 1; i < countArray.Length; i++)
+                countArray[i] = countArray[i - 1] + countArray[i];
+
+            int[] outputArray = new int[arr.Length];
+            for (int i = arr.Length-1; i >= 0; i--)
+                outputArray[countArray[arr[i]] - 1] = arr[i];
+
+            return outputArray;
         }
-        private void Button1_Click(object sender, EventArgs e)
+
+        static void QuickSort(int[] array, int low, int high)
         {
-            int[] arr=bubbleSort(new int[] { 3, 3, 2, 4, 9, 6 });
-            printArray(arr);
+
+            if (low < high)
+            {
+
+                int pivot = Partition(array, low, high);
+
+                QuickSort(array, low, pivot - 1);
+                QuickSort(array, pivot + 1, high);
+
+            }
+
+        }
+
+        static int Partition(int[] array, int low, int high)
+        {
+
+            int pivot = array[high];
+            int i = low - 1;
+
+            for (int j = low; j < high; j++)
+            {
+
+                if (array[j] < pivot)
+                {
+
+                    i++;
+
+                    Swap(array, i, j);
+
+                }
+
+            }
+
+            Swap(array, i + 1, high);
+
+            return i + 1;
+
+        }
+
+        static void Swap(int[] array, int i, int j)
+        {
+
+            int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+
+            private void Button1_Click(object sender, EventArgs e)
+        {
+            int[] arr = list.ToArray();
+            arr=bubbleSort(arr);
+            label2.Text = arrayToString(arr);
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int[] arr=insertSort(new int[] { 3, 3, 2, 4, 7, 6 });
-            printArray(arr);
+            int[] arr= list.ToArray();
+            arr=insertSort(arr);
+            label2.Text = arrayToString(arr);
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {      
+            int[] arr = list.ToArray();
+            mergeSort(arr, 0, arr.Length - 1);
+            label2.Text = arrayToString(arr);
+
+        }
+        private void button5_Click(object sender, EventArgs e)
         {
-            int[] arr = { 3, 3, 2, 4, 8, 6 };
-            mergeSort(arr,0,arr.Length-1);
-            printArray(arr);
+            int[] arr = list.ToArray();
+            QuickSort(arr,0,arr.Length-1);
+            label2.Text = arrayToString(arr);
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int[] arr = list.ToArray();
+            arr=countingSort(arr);
+            label2.Text = arrayToString(arr);
+        }
+
+        private void NumberAdd_Click(object sender, EventArgs e)
+        {
+            int data =(int) inputNumber.Value;
+            list.Add(data); 
+            label1.Text=arrayToString(list.ToArray());
+            inputNumber.Value = 0;
+
+
         }
     }
 }
