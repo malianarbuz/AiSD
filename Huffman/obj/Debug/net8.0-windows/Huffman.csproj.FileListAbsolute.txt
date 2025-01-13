@@ -1,0 +1,16 @@
+C:\Users\Mykel\source\repos\Huffman\bin\Debug\net8.0-windows\Huffman.exe
+C:\Users\Mykel\source\repos\Huffman\bin\Debug\net8.0-windows\Huffman.deps.json
+C:\Users\Mykel\source\repos\Huffman\bin\Debug\net8.0-windows\Huffman.runtimeconfig.json
+C:\Users\Mykel\source\repos\Huffman\bin\Debug\net8.0-windows\Huffman.dll
+C:\Users\Mykel\source\repos\Huffman\bin\Debug\net8.0-windows\Huffman.pdb
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\Huffman.Form1.resources
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\Huffman.csproj.GenerateResource.cache
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\Huffman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\Huffman.AssemblyInfoInputs.cache
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\Huffman.AssemblyInfo.cs
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\Huffman.csproj.CoreCompileInputs.cache
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\Huffman.dll
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\refint\Huffman.dll
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\Huffman.pdb
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\Huffman.genruntimeconfig.cache
+C:\Users\Mykel\source\repos\Huffman\obj\Debug\net8.0-windows\ref\Huffman.dll
