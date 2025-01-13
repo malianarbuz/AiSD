@@ -1,0 +1,17 @@
+C:\Users\local\Documents\178150\Podciagi\bin\Debug\net6.0-windows\Podciagi.exe
+C:\Users\local\Documents\178150\Podciagi\bin\Debug\net6.0-windows\Podciagi.deps.json
+C:\Users\local\Documents\178150\Podciagi\bin\Debug\net6.0-windows\Podciagi.runtimeconfig.json
+C:\Users\local\Documents\178150\Podciagi\bin\Debug\net6.0-windows\Podciagi.dll
+C:\Users\local\Documents\178150\Podciagi\bin\Debug\net6.0-windows\Podciagi.pdb
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\Podciagi.csproj.AssemblyReference.cache
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\Podciagi.Form1.resources
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\Podciagi.csproj.GenerateResource.cache
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\Podciagi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\Podciagi.AssemblyInfoInputs.cache
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\Podciagi.AssemblyInfo.cs
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\Podciagi.csproj.CoreCompileInputs.cache
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\Podciagi.dll
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\refint\Podciagi.dll
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\Podciagi.pdb
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\Podciagi.genruntimeconfig.cache
+C:\Users\local\Documents\178150\Podciagi\obj\Debug\net6.0-windows\ref\Podciagi.dll
