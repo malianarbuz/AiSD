@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Huffman
@@ -13,9 +14,23 @@ namespace Huffman
         {
             List<Node> countedList = createCountedList(InputText.Text);
             String s = "";
-            foreach (NodeS node in countedList)
+            
+            Type type = typeof(NodeS);      
+            while(countedList.Count > 1)
             {
-                s += node.symbol + " " + node.data + " ";
+                Node first= countedList.First();
+                countedList.Remove(first);
+                Node second= countedList.First();
+                countedList.Remove(second);
+                Node node = new Node(first.data+second.data,first,second);
+                first.parent = node;
+                second.parent = node;
+                countedList.Add(node);
+                countedList= countedList.OrderBy(c => c.data).ToList();
+            }
+            foreach (Node node in countedList)
+            {
+                s +=   " " + node.data + " ";
             }
             label1.Text = s;
 

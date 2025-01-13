@@ -14,7 +14,17 @@ namespace Huffman
         public Node parent;
         public int data;
 
-        
+        public Node(int data,Node left,Node right)
+        { 
+          this.data = data; 
+          this.left = left;
+          this.right = right;
+        }
+        public Node()
+        {
+            this.data=0;
+            
+        }
 
     }
 }
