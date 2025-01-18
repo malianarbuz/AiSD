@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Podciagi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bd98c6144330030b3431f8659939bc4846187a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Podciagi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Podciagi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
