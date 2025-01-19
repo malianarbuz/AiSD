@@ -14,115 +14,146 @@ namespace BinarySearchTree
 
         public void Add(int number)
         {
-            var child=new NodeT(number);
-            if(this.root == null)
+            var child = new NodeT(number);
+            if (this.root == null)
             {
                 this.root = child;
                 return;
             }
-            var parent=this.SearchParent(child);
-            child.parent = parent;
-            if( parent.data > child.data)
-                parent.left = child;
-            else
-                parent.right = child;
+            var tmp = root;
+            while (true)
+            {
+                if (child.data < tmp.data)
+                {
+                    if (tmp.left == null)
+                    {
+                        tmp.left = child;
+                        child.parent = tmp;
+                        break;
+                    }
+                    tmp = tmp.left;
+                }
+                else
+                {
+                    if (tmp.right == null)
+                    {
+                        tmp.right = child;
+                        child.parent = tmp;
+                        break;
+                    }
+                    tmp = tmp.right;
+                }
+            }
 
         }
         public void Remove(int number)
         {
-            if(this.root == null)
+            if (this.root == null)
                 return;
-            NodeT tmp=this.FindElement(number);  
+            NodeT tmp = this.FindElement(number);
             if (tmp == null)
                 return;
-           // if (tmp == this.root)
+            if (tmp.left == null && tmp.right == null)
             {
-            //    this.root = null;
-            //    return;
-            } 
-            if (tmp.left ==null && tmp.right ==null)
-            {
-                if(tmp.parent.data >number)
-                    tmp.parent.left = null;
-                else
-                    tmp.parent.right = null;
-                
-                tmp.parent = null;
-                return;
-            }
-            if (tmp.left != null && tmp.right != null)
-            {
-                var temp = tmp.left;
-                while(temp.right!=null)
+                if (tmp == root)
                 {
-                    temp= temp.right;
+                    root = null;
+                    return;
                 }
-                tmp.data = temp.data;
-                temp.parent.right = null;
-                //temp.parent = null;
+                if (tmp == tmp.parent.left)
+                {
+                    tmp.parent.left = null;
+                    tmp.parent = null;
+                }
+                else
+                {
+                    tmp.parent.right = null;
+                    tmp.parent = null;
+                }
                 return;
             }
-            if (tmp.right == null )
+            else if (tmp.left == null)   
             {
-                var temp = tmp.parent;
-                temp.left = tmp.left;
-                tmp.left.parent= temp;
-                tmp.left = null;
+                var parent = tmp.parent;
+                var child = tmp.right;
+                tmp.right = null;
                 tmp.parent = null;
+                child.parent = parent;
+                if(tmp==this.root)
+                {
+                    this.root = child;
+                    return;
+                }
+                if (tmp.data < parent.data)
+                    parent.left = child;
+                else
+                    parent.right = child;
 
+                return;
+            }
+            else if(tmp.right == null)
+            {
+                var parent= tmp.parent;
+                var child = tmp.left;
+                tmp.left = null;
+                tmp.parent=null;
+                child.parent = parent;
+                if (tmp == this.root)
+                {
+                    this.root = child;
+                    return;
+                }
+                if (tmp.data<parent.data)
+                    parent.left = child;
+                else
+                    parent.right = child;
+                return;
             }
             else
             {
-                var temp = tmp.parent;
-                temp.right = tmp.right;
-                tmp.right.parent = temp;
-                tmp.right = null;
-                tmp.parent = null;
-            }
-        }
-        public NodeT SearchParent(NodeT child)
-        {
-            var tmp = this.root;
-            while(true)
-            {
-                if(tmp.data > child.data)
+                var temp = tmp.right;
+                bool change = false;
+                while(temp.left!=null)
                 {
-                    if (tmp.left == null)
-                        return tmp;
-                    else
-                        tmp = tmp.left;
+                    temp=temp.left;
+                    change = true;
                 }
-                else
-                {
-                    if(tmp.right == null)
-                        return tmp;
-                    else
-                        tmp = tmp.right;
-                }
+                tmp.data = temp.data;
+                if(change==true)temp.parent.left = null;
+                else temp.parent.right = null;
+                temp.parent = null;
             }
+
+
+            
         }
-        public void WalkingInTree(NodeT element)
+        
+        public void WalkingInTree(NodeT element,List<String> list)
         {
             if (element == null)
                 return;
-            
-            this.WalkingInTree(element.left);
-            this.WalkingInTree(element.right);
+            list[0] += element.data + " ";
+            this.WalkingInTree(element.left,list);
+            list[1] += element.data + " ";
+            this.WalkingInTree(element.right, list);
+            list[2] += element.data + " ";
+
 
         }
+        
         public NodeT FindElement(int number)
         {
-            var tmp=this.root;
-            while(tmp.data != number)
-            {
-                if ((tmp.left == null) && (tmp.right == null))
-                    return null;
-                if(number < tmp.data)
+            var tmp=this.root;  
+            while(tmp!=null)
+            {  
+                if (tmp.data == number)
+                    return tmp;
+                if(number <tmp.data)
                     tmp = tmp.left;
                 else
-                    tmp=tmp.right;
+                    tmp = tmp.right;
             }
-            return tmp;
+            return null;
         }
         
     }

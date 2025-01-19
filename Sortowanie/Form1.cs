@@ -216,6 +216,8 @@ namespace Sortowanie
 
         }
 
+        
+
         private void button2_Click(object sender, EventArgs e)
         {
             int[] arr= list.ToArray();
@@ -245,14 +247,21 @@ namespace Sortowanie
             label2.Text = arrayToString(arr);
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int[] arr = list.ToArray();
+            arr = countingSort(arr);
+            label2.Text = arrayToString(arr);
+        }
+
         private void NumberAdd_Click(object sender, EventArgs e)
         {
             int data =(int) inputNumber.Value;
             list.Add(data); 
             label1.Text=arrayToString(list.ToArray());
             inputNumber.Value = 0;
-
-
         }
+
+        
     }
 }

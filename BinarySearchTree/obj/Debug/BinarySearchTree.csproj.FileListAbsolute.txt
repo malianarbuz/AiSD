@@ -8,3 +8,13 @@ G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.csproj.CoreCompileInp
 G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.exe
 G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.pdb
 G:\GitHub\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.Form1.resources
+G:\AiSD\BinarySearchTree\bin\Debug\BinarySearchTree.exe.config
+G:\AiSD\BinarySearchTree\bin\Debug\BinarySearchTree.exe
+G:\AiSD\BinarySearchTree\bin\Debug\BinarySearchTree.pdb
+G:\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.csproj.AssemblyReference.cache
+G:\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.Form1.resources
+G:\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.Properties.Resources.resources
+G:\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.csproj.GenerateResource.cache
+G:\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.csproj.CoreCompileInputs.cache
+G:\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.exe
+G:\AiSD\BinarySearchTree\obj\Debug\BinarySearchTree.pdb

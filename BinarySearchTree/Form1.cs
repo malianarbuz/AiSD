@@ -16,6 +16,7 @@ namespace BinarySearchTree
     public partial class Form1 : Form
     {
         BinarySearchTree tree = new BinarySearchTree();
+        
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +29,9 @@ namespace BinarySearchTree
             { 
                 tree.Add(int.Parse(InputNumber.Text));
                 UpdateTreeView();
+                
+
+
             }
             InputNumber.Clear();
             InputNumber.Focus();
@@ -45,6 +49,17 @@ namespace BinarySearchTree
                 ConvertTreeToTreeView(tree.root, rootNode);
             }
             treeView1.ExpandAll();
+            List<String> list = new List<String>();
+            String preOrder = " ";
+            String inOrder = " ";
+            String postOrder = " ";
+            list.Add(preOrder);
+            list.Add(inOrder);
+            list.Add(postOrder);
+            tree.WalkingInTree(tree.root, list);
+            label4.Text = list[0];
+            label5.Text = list[1];
+            label6.Text = list[2];
         }
         private void ConvertTreeToTreeView(NodeT node, TreeNode treeNode)
         {
@@ -72,6 +87,7 @@ namespace BinarySearchTree
             }
             InputNumber.Clear();
             InputNumber.Focus();
+            
         }
     }
 }

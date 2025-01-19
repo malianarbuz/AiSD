@@ -41,6 +41,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.inputNumber)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +49,7 @@
             // 
             this.Button1.Location = new System.Drawing.Point(60, 332);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(102, 59);
+            this.Button1.Size = new System.Drawing.Size(78, 59);
             this.Button1.TabIndex = 0;
             this.Button1.Text = "BubbleSort";
             this.Button1.UseVisualStyleBackColor = true;
@@ -56,9 +57,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(199, 332);
+            this.button2.Location = new System.Drawing.Point(174, 332);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 59);
+            this.button2.Size = new System.Drawing.Size(78, 59);
             this.button2.TabIndex = 1;
             this.button2.Text = "InsertSort";
             this.button2.UseVisualStyleBackColor = true;
@@ -66,9 +67,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(329, 332);
+            this.button3.Location = new System.Drawing.Point(295, 332);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(102, 59);
+            this.button3.Size = new System.Drawing.Size(78, 59);
             this.button3.TabIndex = 2;
             this.button3.Text = "MergeSort";
             this.button3.UseVisualStyleBackColor = true;
@@ -76,9 +77,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(467, 332);
+            this.button4.Location = new System.Drawing.Point(410, 332);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(102, 59);
+            this.button4.Size = new System.Drawing.Size(78, 59);
             this.button4.TabIndex = 3;
             this.button4.Text = "CountingSort";
             this.button4.UseVisualStyleBackColor = true;
@@ -86,9 +87,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(609, 332);
+            this.button5.Location = new System.Drawing.Point(522, 332);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(102, 59);
+            this.button5.Size = new System.Drawing.Size(78, 59);
             this.button5.TabIndex = 4;
             this.button5.Text = "QuickSort";
             this.button5.UseVisualStyleBackColor = true;
@@ -152,11 +153,22 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "SortedArray:";
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(631, 332);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(78, 59);
+            this.button6.TabIndex = 12;
+            this.button6.Text = "HeapSort";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -190,6 +202,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button6;
     }
 }
 
