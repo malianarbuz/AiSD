@@ -1,18 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.Design.Serialization;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Sortowanie
 {
     public partial class Form1 : Form
     {
          List<int> list = new List<int>();
+        BinaryTree tree = new BinaryTree();
         public Form1()
         {
             InitializeComponent();
@@ -249,9 +252,13 @@ namespace Sortowanie
 
         private void button6_Click(object sender, EventArgs e)
         {
-            int[] arr = list.ToArray();
-            arr = countingSort(arr);
-            label2.Text = arrayToString(arr);
+             
+            tree.Add(list,tree.root);
+            UpdateTreeView();
+            
+
+
+            
         }
 
         private void NumberAdd_Click(object sender, EventArgs e)
@@ -260,8 +267,33 @@ namespace Sortowanie
             list.Add(data); 
             label1.Text=arrayToString(list.ToArray());
             inputNumber.Value = 0;
+            inputNumber.Focus();
+        }
+        private void ConvertTreeToTreeView(NodeT node, TreeNode treeNode)
+        {
+            if (node.right != null)
+            {
+                TreeNode right = new TreeNode(node.right.data.ToString());
+                treeNode.Nodes.Add(right);
+                ConvertTreeToTreeView(node.right, right);
+            }
+
+            if (node.left != null)
+            {
+                TreeNode left = new TreeNode(node.left.data.ToString());
+                treeNode.Nodes.Add(left);
+                ConvertTreeToTreeView(node.left, left);
+            }
+        }
+        public void UpdateTreeView()
+        {
+            treeView1.Nodes.Clear();
+            TreeNode rootNode = new TreeNode(tree.root.data.ToString());
+            ConvertTreeToTreeView(tree.root, rootNode);
+            treeView1.Nodes.Add(rootNode);
+            treeView1.ExpandAll();
         }
 
-        
+
     }
 }

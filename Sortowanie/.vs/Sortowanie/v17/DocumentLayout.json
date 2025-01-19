@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "G:\\AiSD\\Sortowanie\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C5C8072-A6C6-4A2C-B276-D7E2FF119DE6}|Sortowanie.csproj|G:\\AiSD\\Sortowanie\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C5C8072-A6C6-4A2C-B276-D7E2FF119DE6}|Sortowanie.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C5C8072-A6C6-4A2C-B276-D7E2FF119DE6}|Sortowanie.csproj|g:\\aisd\\sortowanie\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C5C8072-A6C6-4A2C-B276-D7E2FF119DE6}|Sortowanie.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C5C8072-A6C6-4A2C-B276-D7E2FF119DE6}|Sortowanie.csproj|g:\\aisd\\sortowanie\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C5C8072-A6C6-4A2C-B276-D7E2FF119DE6}|Sortowanie.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0C5C8072-A6C6-4A2C-B276-D7E2FF119DE6}|Sortowanie.csproj|g:\\aisd\\sortowanie\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5C8072-A6C6-4A2C-B276-D7E2FF119DE6}|Sortowanie.csproj|solutionrelative:binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5C8072-A6C6-4A2C-B276-D7E2FF119DE6}|Sortowanie.csproj|g:\\aisd\\sortowanie\\nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5C8072-A6C6-4A2C-B276-D7E2FF119DE6}|Sortowanie.csproj|solutionrelative:nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,19 +31,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "G:\\AiSD\\Sortowanie\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "G:\\AiSD\\Sortowanie\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAvwNoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T21:27:08.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Form1.cs [Projekt]",
               "DocumentMoniker": "G:\\AiSD\\Sortowanie\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -44,6 +39,45 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T21:26:23.876Z",
               "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "G:\\AiSD\\Sortowanie\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "G:\\AiSD\\Sortowanie\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAuwBMBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:27:08.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BinaryTree.cs",
+              "DocumentMoniker": "G:\\AiSD\\Sortowanie\\BinaryTree.cs",
+              "RelativeDocumentMoniker": "BinaryTree.cs",
+              "ToolTip": "G:\\AiSD\\Sortowanie\\BinaryTree.cs",
+              "RelativeToolTip": "BinaryTree.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:40:18.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NodeT.cs",
+              "DocumentMoniker": "G:\\AiSD\\Sortowanie\\NodeT.cs",
+              "RelativeDocumentMoniker": "NodeT.cs",
+              "ToolTip": "G:\\AiSD\\Sortowanie\\NodeT.cs",
+              "RelativeToolTip": "NodeT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:37:19.077Z",
+              "EditorCaption": ""
             }
           ]
         }
