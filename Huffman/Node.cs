@@ -13,9 +13,10 @@ namespace Huffman
         public Node right;
         public Node parent;
         public int data;
+        
 
         public Node(int data,Node left,Node right)
-        { 
+        {
           this.data = data; 
           this.left = left;
           this.right = right;
@@ -25,6 +26,7 @@ namespace Huffman
             this.data=0;
             
         }
+        
 
     }
 }

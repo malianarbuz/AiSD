@@ -89,5 +89,9 @@ namespace BinarySearchTree
             InputNumber.Focus();
             
         }
+        public String[,] GenerateCodes(NodeT tree,String[,] codes,String code)
+        {
+            
+        }
     }
 }

@@ -15,5 +15,6 @@ namespace Huffman
             this.symbol = symbol;
             this.data = 1;
         }
+        
     }
 }

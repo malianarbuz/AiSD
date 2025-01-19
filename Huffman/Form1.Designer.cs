@@ -31,6 +31,8 @@
             InputText = new TextBox();
             Tree = new Button();
             label1 = new Label();
+            treeView1 = new TreeView();
+            label2 = new Label();
             SuspendLayout();
             // 
             // InputText
@@ -59,11 +61,28 @@
             label1.TabIndex = 2;
             label1.Text = "Wprowadź ciąg znaków:";
             // 
+            // treeView1
+            // 
+            treeView1.Location = new Point(419, 39);
+            treeView1.Name = "treeView1";
+            treeView1.Size = new Size(369, 203);
+            treeView1.TabIndex = 3;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(424, 282);
+            label2.Name = "label2";
+            label2.Size = new Size(0, 15);
+            label2.TabIndex = 4;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
+            Controls.Add(treeView1);
             Controls.Add(label1);
             Controls.Add(Tree);
             Controls.Add(InputText);
@@ -78,5 +97,7 @@
         private TextBox InputText;
         private Button Tree;
         private Label label1;
+        private TreeView treeView1;
+        private Label label2;
     }
 }
