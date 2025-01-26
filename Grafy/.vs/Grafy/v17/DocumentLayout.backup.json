@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "G:\\AiSD\\Grafy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|G:\\AiSD\\Grafy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|g:\\aisd\\grafy\\graf1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|solutionrelative:graf1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|G:\\AiSD\\Grafy\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|solutionrelative:edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|G:\\AiSD\\Grafy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|G:\\AiSD\\Grafy\\nodeg1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|solutionrelative:nodeg1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|G:\\AiSD\\Grafy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|G:\\AiSD\\Grafy\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|solutionrelative:edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|G:\\AiSD\\Grafy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DC29522-C5BC-4286-85B5-82EE89C7185E}|Grafy.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,25 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "G:\\AiSD\\Grafy\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "G:\\AiSD\\Grafy\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAASwC4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:00:45.804Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form1.cs [Projekt]",
               "DocumentMoniker": "G:\\AiSD\\Grafy\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -60,39 +46,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NodeG1.cs",
-              "DocumentMoniker": "G:\\AiSD\\Grafy\\NodeG1.cs",
-              "RelativeDocumentMoniker": "NodeG1.cs",
-              "ToolTip": "G:\\AiSD\\Grafy\\NodeG1.cs",
-              "RelativeToolTip": "NodeG1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:00:04.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edge.cs",
-              "DocumentMoniker": "G:\\AiSD\\Grafy\\Edge.cs",
-              "RelativeDocumentMoniker": "Edge.cs",
-              "ToolTip": "G:\\AiSD\\Grafy\\Edge.cs",
-              "RelativeToolTip": "Edge.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:00:19.425Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "G:\\AiSD\\Grafy\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "G:\\AiSD\\Grafy\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:00:45.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Graf1.cs",
               "DocumentMoniker": "G:\\AiSD\\Grafy\\Graf1.cs",
               "RelativeDocumentMoniker": "Graf1.cs",
               "ToolTip": "G:\\AiSD\\Grafy\\Graf1.cs",
               "RelativeToolTip": "Graf1.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwE0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T15:05:03.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NodeG1.cs",
+              "DocumentMoniker": "G:\\AiSD\\Grafy\\NodeG1.cs",
+              "RelativeDocumentMoniker": "NodeG1.cs",
+              "ToolTip": "G:\\AiSD\\Grafy\\NodeG1.cs",
+              "RelativeToolTip": "NodeG1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:00:04.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edge.cs",
+              "DocumentMoniker": "G:\\AiSD\\Grafy\\Edge.cs",
+              "RelativeDocumentMoniker": "Edge.cs",
+              "ToolTip": "G:\\AiSD\\Grafy\\Edge.cs",
+              "RelativeToolTip": "Edge.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:00:19.425Z",
               "EditorCaption": ""
             }
           ]

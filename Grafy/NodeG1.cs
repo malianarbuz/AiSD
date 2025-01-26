@@ -13,5 +13,10 @@ namespace Grafy
         {
             this.data = data;
         }
+        public override String ToString()
+        {
+            return this.data.ToString();
+        }
+        
     }
 }

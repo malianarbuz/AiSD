@@ -18,5 +18,10 @@ namespace Grafy
             this.end = end;
             this.weight = weight;
         }
+        public override String ToString()
+        {
+            String results = this.start + "-" + this.weight + "-" + this.end + " ";
+            return results;
+        }
     }
 }
